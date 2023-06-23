@@ -1,0 +1,35 @@
+.preto{
+    background-color: black;
+    height: 10vh;
+    grid-area: preto;
+}
+.rosa {
+    background-color: rgb(214, 3, 126);
+    grid-area: rosa;
+    height: 20vh;
+}
+.vermelho {
+    background-color:red;
+    grid-area: vermelho;
+}
+.verde {
+    background-color:green;
+    grid-area: verde;
+}
+.azul {
+    background-color: blue;
+    grid-area: azul;
+    height: 70px;
+}
+.cinza {
+    background-color:gray;
+    grid-area: cinza;
+}
+.site {
+    display: grid;
+    grid-template-columns: 10% 70% 20% ;
+    grid-template-areas: 
+    "vermelho vermelho vermelho"
+    "azul cinza verde"
+    "preto verde rosa"
+}
