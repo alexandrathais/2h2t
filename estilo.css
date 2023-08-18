@@ -121,6 +121,11 @@ ul {    width: 100%;
     text-decoration: underline;
     
 }
-@media screen and (min-width: 1280px) {
-
+div [class^="item-"]{
+    background-color: var (--cor-clara-fundo);
+    padding: 2px;
+    width: calc(100vw - 4px);
+    height: 50vh;
+    margin: 2px;
 }
+@media screen and (min-width: 1280px){}
